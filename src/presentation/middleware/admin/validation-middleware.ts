@@ -3,9 +3,7 @@ import { Request, Response, NextFunction } from "express";
 import {
   createAdminSchema,
   updateAdminSchema,
-} from "../../../domain/admin/validators/admin-schema";
-
-
+} from "../../validators/admin-schema";
 
 export async function validateCreateAdmin(
   req: Request<any, any, any, any, Record<string, any>>,
