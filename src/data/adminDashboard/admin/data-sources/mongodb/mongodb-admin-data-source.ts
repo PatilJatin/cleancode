@@ -2,7 +2,7 @@ import { ObjectId } from "mongodb";
 import {
   AdminRequestModel,
   AdminResponseModel,
-} from "../../../../../domain/adminDashboard/admin/models/admin";
+} from "../../../../../domain/adminDashboard/admin/model/admin";
 import { NoSQLDatabaseWrapper } from "../../../../noSql-db-wrapper/nosql-database-wrapper";
 
 export class MongoDBAdminDataSource {

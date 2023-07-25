@@ -1,8 +1,4 @@
-
-import {
-  AdminRequestModel,
-  AdminResponseModel,
-} from "../models/admin";
+import { AdminRequestModel, AdminResponseModel } from "../model/admin";
 import { AdminRepository } from "../interfaces/repositories/admin-repository";
 import { MongoDBAdminDataSource } from "../../../../data/adminDashboard/admin/data-sources/mongodb/mongodb-admin-data-source";
 

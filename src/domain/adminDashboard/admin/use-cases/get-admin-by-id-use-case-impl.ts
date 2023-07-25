@@ -1,4 +1,4 @@
-import { AdminResponseModel } from "../models/admin";
+import { AdminResponseModel } from "../model/admin";
 import { AdminRepository } from "../interfaces/repositories/admin-repository";
 import { GetAdminByIdUseCase } from "../interfaces/use-cases/get-admin-by-id-use-case";
 

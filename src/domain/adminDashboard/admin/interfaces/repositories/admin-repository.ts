@@ -1,4 +1,4 @@
-import { AdminRequestModel, AdminResponseModel } from "../../models/admin";
+import { AdminRequestModel, AdminResponseModel } from "../../model/admin";
 
 export interface AdminRepository {
   createAdmin(admin: AdminRequestModel): Promise<void>;
